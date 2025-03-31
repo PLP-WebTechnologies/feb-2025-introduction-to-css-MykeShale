@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Steps to Register</h2>
+        <ol type="I">
+            <li>Fill in your details</li>
+            <li>Choose your preferences</li>
+            <li>Submit the form</li>
+            <li>Check your email for confirmation</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Our Community</h2>
+        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg" alt="Community Image" width="600">
+    </section>
+
+    <!-- Contacts Table -->
+    <section id="contacts">
+        <h2>Contact List</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>+123456789</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave</td>
+                <td>+987654321</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Mike Johnson</td>
+                <td>789 Pine Rd</td>
+                <td>+1122334455</td>
+                <td>mike@example.com</td>
+            </tr>
+            <tr>
+                <td>Susan Lee</td>
+                <td>321 Elm St</td>
+                <td>+5566778899</td>
+                <td>susan@example.com</td>
+            </tr>
+            <tr>
+                <td>David Brown</td>
+                <td>654 Cedar Ln</td>
+                <td>+6677889900</td>
+                <td>david@example.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register">
+        <h2>Register</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required> <label for="female">Female</label>
+            <br>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select>
+            <br>
+            
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding"> <label for="coding">Coding</label>
+            <input type="checkbox" id="sports" name="interests" value="sports"> <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music"> <label for="music">Music</label>
+            <br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: <a href="mailto:info@angahost.co.ke">info@angahost.co.ke || 0792099302</a></p>
+    </footer>
+</body>
+</html>
